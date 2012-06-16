@@ -19,7 +19,7 @@ module RailsKindeditor
   @@upload_media_ext = %w[swf flv mp3 wav wma wmv mid avi mpg asf rm rmvb]
   
   mattr_accessor :upload_file_ext
-  @@upload_file_ext = %w[doc docx xls xlsx ppt htm html txt zip rar gz bz2]
+  @@upload_file_ext = %w[doc docx xls xlsx ppt htm html txt zip rar gz bz2 sgs]
   
   mattr_accessor :image_resize_to_fit
   
